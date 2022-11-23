@@ -1,0 +1,400 @@
+body{
+	
+	background-size: 340px;
+	background-repeat: no-repeat;
+	Font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, serif;
+	background-position: right;
+	background: linear-gradient(45deg, #000000, #0F1923);
+    }
+
+p,h1,h2{
+	color: white;
+	padding-left: ;
+}
+
+.logo{
+	width: 200px;
+	height: 20px;
+}
+
+/**** BARRA NAVEGAÇÃO ****/
+#barra-navegacao{
+	background:#FF4655;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: #ADD8E6;
+}
+
+body.sobre_o_jogo #navegacao a#sobre_o_jogo,
+body.mapas #navegacao a#mapas,
+body.armas #navegacao a#armas,
+body.personagens #navegacao a#personagens,
+body.campeonatos #navegacao a#campeonatos,
+body.noticias #navegacao a#noticias,
+body.sobre_nos1 #navegacao a#sobre_nos2
+{
+	color: #ADD8E6;
+	cursor: text;
+}
+
+
+/**** CONTEÚDO HOME ****/
+
+h1{ 
+	font-family: Impact, fantasy;
+	color: #FF4655;
+}
+
+.inicio{
+	padding-top: 120px;
+	font-size: 17px;
+}
+
+
+
+/**** CONTEÚDO SOBRE O JOGO ****/
+#informacao_jogo{
+	padding: 30px 50px 30px 50px;
+	font-size: px;
+}
+
+h2{
+    font-family: Impact, fantasy;
+	color: #FF4655;
+}
+
+/**** CONTEÚDO MAPAS****/
+#mapa1, #mapa2, #mapa3, #mapa4, #mapa5, #mapa6, #mapa7, #mapa8, #mapa9{
+	width: 1062.5px;
+	height: 562.5px;
+	margin-left: auto;
+	margin-right: auto;
+    display: block;
+	z-index: 0;
+	border-radius: 20px;
+	border: 4px solid #b8e9ff;
+	
+}
+
+h3{
+    font-family: Impact, fantasy;
+	color: black;
+	font-size: 20px;
+}
+
+.titulo_mapas{
+	padding: 40px 0px 30px 0px;
+	font-size: 70px;
+	text-align: center;
+}
+
+#texto{
+	color: black;
+	background:#ADD8E6;
+	width: 300px;	
+	z-index: 1;
+    position: absolute;
+    top: 65%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+#texto p{
+	color: black;
+
+}
+
+#texto h3{
+	font-size: 40px;
+}
+
+#engloba{
+	padding-left: 60px;
+	padding-top: 50px;
+}
+
+/**** CONTEÚDO ARMAS ****/
+.titulo_armas{
+	font-family: Impact, fantasy;
+	font-size: 45px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.container_armas{
+	padding: 30px 30px 30px 30px;
+}
+
+.classic{
+	padding: 50px 0px 0px 130px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_vandal{
+	padding: 50px 0px 0px 0px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_phantom{
+	padding: 50px 0px 0px 20px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_bulldog{
+	padding: 50px 0px 0px 0px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_guardian{
+	padding: 50px 0px 0px 0px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_marshal{
+	padding: 50px 0px 0px 0px;
+	border: 2px solid #b8e9ff;
+
+}
+
+.classic_operator{
+	padding: 50px 0px 0px 0px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_bucky{
+	padding: 80px 0px 0px 50px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_judge{
+	padding: 80px 0px 0px 50px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_ares{
+	padding: 80px 0px 0px 50px;
+	border: 2px solid #b8e9ff;
+}
+
+.classic_odin{
+	padding: 80px 0px 0px 50px;
+	border: 2px solid #b8e9ff;
+}
+
+
+/**** CONTEÚDO SOBRE NOS ****/
+.eu,.bruno{
+	width: 300px;
+	height: 400px;
+	border: 2px solid #b8e9ff;
+}
+
+.insta{
+	width: 17px;
+	height: 17px;
+}
+
+#informacoes_pessoais{
+	padding: 50px 0px 0px 50px;
+}
+
+#sobre_nos1{
+   font: 1.5vw;
+}
+#Referncias1{
+	padding: 50px 0px 0px 50px;
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "teste";
+    background: 50% 100% 100% no-repeat;
+}
+
+
+#nos{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#site1{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/**** CONTEÚDO PERSONAGENS ****/
+.imagem_jett{
+	width: 400px;
+
+}
+
+
+#informacao_jogo2{
+	padding: 50px 100px 0px 100px;
+	font-size: 1.5vw;
+}
+
+.chato{
+	border: 2px solid #b8e9ff;
+	padding: 40px;
+}
+/**** CONTEÚDO NOTICIAS ****/
+.noticia1{
+  padding-top: 70px;
+  padding-bottom: 150px;
+
+}
+
+.end1{
+	color: #FF4655;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.end1:hover{
+	color: #ADD8E6;
+}
+
+.imagem1{
+	border: 2px solid #b8e9ff;
+    width: 350px;
+    height: 300px;
+}
+
+.loud{
+	width: 350px;
+	height: 300px;
+	border: 2px solid #b8e9ff;
+}
+
+/**** CONTEÚDO CAMPEONATOS ****/
+.titulo_campeonatos{
+	text-align: center;
+	padding: 50px 0px 30px 0px;
+}
+
+.logo_dach{
+	padding: 10px 0px 50px 200px;
+	width: 40%;
+	height: 40%;
+}
+
+.logo_magyar{
+	padding: 40px 0px 50px 200px;
+	width: 30%;
+	height: 30%;
+}
+ .logo_queens{
+ 	padding: 40px 0px 50px 200px;
+	width: 30%;
+	height: 30%;
+ }
+ .logo_elite{
+ 	padding: 40px 0px 50px 200px;
+	width: 30%;
+	height: 30%;
+ } 
+ .logo_MCT{
+ 	padding: 40px 0px 50px 200px;
+	width: 30%;
+	height: 30%;
+ }
+ .logo_crossfire{
+ 	padding: 40px 0px 50px 200px;
+	width: 40%;
+	height: 40%;
+ }
+ .logo_series{
+ 	padding: 40px 0px 50px 200px;
+	width: 40%;
+	height: 40%;
+ }
+ .logo_split{
+	padding: 40px 0px 50px 200px;
+	width: 40%;
+	height: 40%;
+}
+.logo_peru{
+	padding: 40px 0px 50px 200px;
+	width: 40%;
+	height: 40%;
+
+}
+
+
+.informacao_campeonatos{
+	float: right;
+	padding: 40px 480px 0px 0px;
+}
+
+.informacao_campeonatos2{
+	float: right;
+	padding: 40px 380px 0px 0px;
+}
+
+.informacao_campeonatos3{
+	float: right;
+	padding: 40px 350px 0px 0px;
+}
+
+.informacao_campeonatos4{
+	float: right;
+	padding: 40px 450px 0px 0px;
+}
+
+.informacao_campeonatos5{
+	float: right;
+	padding: 40px 450px 0px 0px;
+}
+
+.informacao_campeonatos6{
+	float: right;
+	padding: 40px 330px 0px 0px;
+}
+
+.informacao_campeonatos7{
+	float: right;
+	padding: 50px 450px 0px 0px;
+}
+
+.informacao_campeonatos8{
+	float: right;
+	padding: 40px 450px 0px 0px;
+}
+
+.informacao_campeonatos9{
+	float: right;
+	padding: 45px 400px 0px 0px;
+}
+
+
+
+/**** LINK TOPO ****/
+#link-topo{
+	text-decoration: none;
+	color: white;
+	background-color: #FF4655;
+	padding: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 3px 3px 10px black;
+}
+
+.pearl, .fracture, .breeze, .icebox, .bind, .haven, .split, .ascent{
+	padding: 10px 10px 10px 10px;
+}
+
+.todos{
+	font-family: Impact, fantasy;
+	color: black;
+	font-size: 40px;
+}
